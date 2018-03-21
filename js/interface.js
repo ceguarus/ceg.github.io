@@ -250,7 +250,7 @@ function hideLightbox(){
 
 function tocaAudio(nome){
 	$('#contPlayer').html('<audio >\
-		<source src="_tracks/'+nome+'.mp3" type="audio/mpeg">\
+		<source src="tracks/'+nome+'.mp3" type="audio/mpeg">\
 	</audio>');
 	$iniPlay = true; 
 	$('#contPlayer audio').on("canplay", function () {
