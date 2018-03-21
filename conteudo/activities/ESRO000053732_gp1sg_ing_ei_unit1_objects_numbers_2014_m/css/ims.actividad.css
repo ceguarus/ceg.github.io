@@ -1,0 +1,203 @@
+*:focus {
+	outline: none;
+}
+.targets, .word {
+	background-image: url('images/trp.png');
+	z-index: 400;
+}
+input, .item_arrastrar {
+	-webkit-user-select: auto;
+	-khtml-user-select: auto;
+	-moz-user-select: auto;
+	-o-user-select: auto;
+	user-select: auto;
+}
+.aspa{
+	position:absolute;
+	z-index:999;
+	width:25px;
+	height:21px;
+	padding-top: 4px;
+	border-radius:15px;
+	-ms-border-radius:15px;
+	-webkit-border-radius:15px;
+	-moz-border-radius:15px;
+	background-color:#323332;
+	font-weight:bold;
+	color:#fff;
+	text-align:center;
+}
+#canvas{
+	z-index: 1;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+.item_arrastrar {
+	cursor: pointer;
+}
+.tablet .item_arrastrar {
+	font-size: 16px;
+}
+.item_arrastrar p {
+	-webkit-margin-before: 0em;
+	margin-bottom: 0;
+    margin-top: 0;
+	-webkit-margin-after: 0em;
+}
+.selected, .green, .red {
+	margin-right: 40px;
+}
+.fondo_arrastrar{
+	background-color: #3BB2E4;
+	border: none;
+	font-size:16px;
+	-webkit-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+.row {
+	cursor: pointer;
+}
+#intro_title {
+	font-size: 16px;
+}
+.tablet #item_arrastrar {
+	font-size: 14px !important;
+}
+#intro_text {
+	margin: 10px 70px 0px 30px;
+	padding: 0px;
+}
+#intro_text p {
+	margin-top: 0px !important;
+}
+
+#overall {
+	overflow: hidden;
+	position: absolute;
+	z-index: 2;
+}
+.hotspot.no_background, .hotspot_flecha.no_background, .hotspot_arrastrar.no_background, .item_arrastrar.no_background, .item_textolibre.no_background {
+	background-color: transparent !important;
+	border: none !important;
+}
+.no_background {
+	background-color: transparent !important;
+	border: none !important;
+}
+
+
+/*Flechas*/
+
+.line {
+	position: absolute;
+	z-index: 1;
+	stroke-width: 4px;
+	stroke: #7ACBED;
+}
+.hotspot_flecha, .flecha {
+	cursor: pointer;
+}
+.tablet .flecha {
+	font-size: 16px;
+	background-color: #EEEEEE;
+	padding: 2px 5px;
+	-webkit-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	min-height: 20px;
+}
+.tablet .word {
+	font-size: 16px;
+	background-color: #EEEEEE;
+	-webkit-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+.tablet .hotspot_flecha {
+	border: 2px solid #2FAEE4;
+	background-color: #FFFFFF;
+	-webkit-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	color: #000000;
+	z-index: 5;
+	padding: 0px;
+	margin: 0px;
+	text-align: center;
+}
+#bottombar{
+	position:relative;
+	z-index: 1;
+}
+.tablet .red {
+	font-size: 16px;
+	max-width: 116px;
+	-webkit-border-radius: 0px;
+	-ms-border-radius: 0px;
+	-moz-border-radius: 0px;
+	border-radius: 0px;
+	background-color: red !important;
+	color: #ffffff !important;
+}
+.tablet .green {
+	font-size: 16px;
+	max-width: 116px;
+	color: #ffffff !important;
+	background-color: #39B54A !important;
+}
+.tablet .nocheck {
+	width: 21px !important;
+	background: url(images/flecha_prim3_red.png) no-repeat center !important;
+}
+.tablet .check {
+	width: 21px !important;
+	background: url(images/flecha_prim3_green.png) no-repeat center !important;
+}
+.tablet .pop_up_title font {
+	color: #FFFFFF;
+}
+.tablet #intro_title {
+	margin: 10px 50px 0px 30px;
+}
+.tablet .row {
+	/*filter: progid:DXImageTransform.Microsoft.Matrix(sizingMethod='auto expand', M11=0.7071067811865476, M12=-0.7071067811865475, M21=0.7071067811865475, M22=0.7071067811865476); /* IE6,IE7 */
+	/*-ms-filter: "progid:DXImageTransform.Microsoft.Matrix(SizingMethod='auto expand', M11=0.7071067811865476, M12=-0.7071067811865475, M21=0.7071067811865475, M22=0.7071067811865476)";*/ /* IE8 */
+	background: url(images/flecha_prim3.png) no-repeat center;
+	width: 21px;
+	height: 21px;
+	position: fixed;
+	z-index: 2;
+}
+.tablet .item, .tablet .target {
+	font-size: 14px;
+}
+#center {
+	z-index: 4
+}
+.stars {
+	position: absolute;
+	background: url("images/estrellas.png") no-repeat center;
+	width: 24px;
+	z-index: 10;
+	height: 24px;
+}
+
+.tablet .hotspot_arrastrar {
+	background-color: #E6E7E8;
+	border: none;
+	font-size: 14px;
+	-webkit-border-radius: 0px;
+	-ms-border-radius: 0px;
+	-moz-border-radius: 0px;
+	border-radius: 0px;
+	color: #000000;
+	padding: 0px;
+	margin: 0px;
+	text-align: left;
+}

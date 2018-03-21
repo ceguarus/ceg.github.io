@@ -1,0 +1,136 @@
+#intro_title {
+	font-size: 16px;
+}
+.tablet .target {
+	font-size: 16px;
+}
+#header{
+	padding-right: 30px;
+}
+#bottombar {
+	z-index: 4000;
+	position: relative;
+}
+.aspa{
+	position:absolute;
+	z-index:999;
+	width:25px;
+	height:21px;
+	padding-top: 4px;
+	border-radius:15px;
+	-ms-border-radius:15px;
+	-webkit-border-radius:15px;
+	-moz-border-radius:15px;
+	background-color:#323332;
+	font-weight:bold;
+	color:#fff;
+	text-align:center;
+}
+.item, #box {
+	cursor: pointer !important;
+}
+#limit{
+	overflow: hidden;
+}
+#intro_text, #intro_title {
+	
+	padding: 0px;
+}
+#intro_text p {
+	margin-top: 0px !important;
+}
+.tablet #respuesta {
+	padding-bottom: 50px;
+}
+#overall {
+	overflow: hidden;
+	position: absolute;
+	z-index: 500;
+}
+.tablet_selection {
+	background-color: #46AADC !important;
+}
+#center {
+	z-index: 4
+}
+.stars {
+	position: absolute;
+	background: url("images/estrellas.png") no-repeat center;
+	width: 24px;
+	z-index: 10;
+	height: 24px;
+}
+
+/*CSS ACTIVIDAD*/
+
+#overall {
+	overflow: hidden;
+	position: absolute;
+	z-index: 10000;
+}
+
+#close {
+	z-index: 1000;
+}
+.tablet #close {
+	cursor: pointer;
+	background: url(images/sec_less.png) no-repeat center;
+	width: 18px;
+	float: right;
+	padding-left: 10px;
+	height: 19px;
+	margin-top: -22px;
+}
+.tablet .target {
+	border: 2px solid #E6E7E8;
+	background-color: white;
+	width: 130px;
+	height: 21px;
+	margin-bottom: 5px;
+	text-align: center;
+	color: white;
+	padding-top: 0px;
+	border-radius: 5px !important;
+	-ms-border-radius: 5px !important;
+	-moz-border-radius: 5px !important;
+	-webkit-border-radius: 5px !important;
+	display: inline-block;
+	position: relative;
+	top: 0px;
+	left: 0px;
+}
+
+.tablet #box {
+	background: #ebf7fe url(images/tablet/tab_box.png) repeat-x top;
+	height: 125px;
+}
+.tablet .tab-o {
+	margin: 0px auto;
+	background: url(images/tablet/tab-o.png) no-repeat center;
+	width: 32px;
+	height: 24px;
+}
+.tablet .tab-c {
+	margin: 0px auto;
+	background: url(images/tablet/tab-c.png) no-repeat center !important;
+	width: 32px;
+	height: 24px;
+}
+.tablet .item {
+	height: 24px;
+	min-width: 100px;
+	z-index: 2;
+	-webkit-box-shadow: 2px 1px 11px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow: 2px 1px 11px rgba(50, 50, 50, 0.75);
+	box-shadow: 2px 1px 11px rgba(50, 50, 50, 0.75);
+	background-color: #E6E7E8;
+	position: absolute;
+	text-align: center;
+	color: black;
+	font-size: 16px;
+	border-radius: 5px !important;
+	-ms-border-radius: 5px !important;
+	-moz-border-radius: 5px !important;
+	-webkit-border-radius: 5px !important;
+	vertical-align: middle;
+}

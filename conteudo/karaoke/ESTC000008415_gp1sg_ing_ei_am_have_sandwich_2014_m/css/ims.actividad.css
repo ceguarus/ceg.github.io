@@ -1,0 +1,280 @@
+
+
+
+/*
+//--------------------------------------------------------------------
+tablet
+//--------------------------------------------------------------------
+*/
+/*
+-------------------------
+//Header
+*/
+
+
+.tablet .titulo p {
+font-size: 15px;
+color: black;
+font-weight: normal;
+}
+.tablet hr {
+
+-webkit-margin-before: 0px;
+-webkit-margin-after: 0px;
+
+}
+/*
+-------------------------
+
+
+.tablet #fondo {
+-webkit-border-radius: 0px;
+-ms-border-radius: 0px;
+-moz-border-radius: 0px;
+border-radius: 0px;
+}*/
+.tablet #right, .tablet #right2 {
+width: 40%;
+bottom:0px;
+}
+.tablet #left, .tablet #left2 {
+width: 60%;
+bottom:0px;
+}
+.tablet #play{
+margin: 0px 0px 0px 20px;
+}
+.tablet #pause{
+margin: 0px 0px 0px 20px;
+background: url(images/tablet/tab_pause.png) no-repeat center;
+}
+
+.tablet #visor_content p{
+	font-size: 16px;
+}
+.tablet .karaoke, .tablet .cancion{
+color: #a7a7a7;
+margin: 6px 0 0 9px;
+float: left;
+cursor: pointer;
+}
+.tablet #karaoke, .tablet #cancion{
+color: #a7a7a7;
+margin: 6px 0 0 9px;
+float: left;
+}
+.tablet .radioGraper{
+
+margin: 16px 0 0 9px !important;
+float: left;
+}
+.tablet #cancion input{
+width: 22px;
+
+}
+.tablet #karaoke input{
+width: 22px;
+}
+
+/**/
+
+.tablet #pantallaFondoBlanco{
+width: 100%;
+height: 100%;
+background-size: 100% 52%;
+background-position: 0px 97px;
+}
+.tablet #pantallaFondoGris{
+background: #f4f4f4 url(images/tablet/linea_banda_sup.png) no-repeat bottom;
+width: 100%;
+height: 131px;
+position: absolute;
+bottom: 60px;
+background-size: 100%;
+background-repeat: no-repeat;
+}
+.tablet .backBtnsListado {
+background-color: #F3F3F3;
+}
+.tablet .btnsListado {
+color: #AD75AB;
+text-align: left;
+cursor: pointer;
+margin: 5px;
+font-size: 19px;
+}
+.tablet #listado {
+position: absolute;
+width: 200px;
+top: 100px;
+left: 300px;
+background-color: white;
+border: 9px solid #AD75AB;
+padding-bottom: 12px;
+-moz-border-radius: 8px;
+-webkit-border-radius: 8px;
+border-radius: 8px;
+display: inline-block;
+}
+.tablet #contentCues {
+position: absolute;
+
+}
+/*
+----------------------------------------------------
+Los cues
+*/
+.tablet .cue_in {
+width: 500px;
+float: left;
+text-align: center;
+font-weight: bold;
+/*padding: 8px 0;*/
+color: #48a9da;
+
+}
+.tablet .cue_in_on{
+color: white !important;
+font-size: 18px;
+-moz-border-radius: 14px;
+-webkit-border-radius: 14px;
+border-radius: 14px;
+background-color: #4AA8DE;
+padding: 3px 0 0 0;
+height: 27px;
+margin:0 0 10px 0;
+}
+.tablet #cues {
+/*margin: 335px 0 0 323px;border: 1px solid;*/
+height: 100px;
+position: relative;
+overflow: hidden;
+width: 500px;
+
+}
+/*
+----------------------------------------------------
+La barra de sonido
+*/
+.tablet #msgCarga {
+background-color: white;
+-ms-border-radius: 20px;
+-webkit-border-radius: 20px;
+-moz-border-radius: 20px;
+border-radius: 20px;
+color: #73C5E7;
+position: absolute;
+top: 494px;
+left: 147px;
+width: 242px;
+height: 33px;
+padding: 19px 0px 0 179px;
+border: 3px solid #73C5E7;
+font-weight: bold;
+z-index: 100;
+}
+.tablet #barra_sup {
+width: 300px;
+float: left;
+margin-right: 6px;
+margin-top: 20px;
+height: 20px;
+-moz-border-radius: 17px;
+-webkit-border-radius: 17px;
+border-radius: 17px;
+background-color: #4E4E4E;
+}
+.tablet #btn_barra {
+width: 36px;
+height: 36px;
+cursor: pointer;
+position: relative;
+left: 295px;
+top: -9px;
+z-index: 2;
+background: url(images/tablet/btnSonido.png) no-repeat 0px 0px;
+}
+.tablet #barra_int {
+background-color: white;
+width: 0px;
+position: absolute;
+height: 10px;
+left: 55px;
+bottom: 25px;
+border-top-left-radius: 17px;
+border-bottom-left-radius: 17px;
+-webkit-border-bottom-left-radius: 17px;
+-webkit-border-top-left-radius: 17px;
+}
+/*
+-------------------------
+*/
+.tablet .img_radioBtn_off {
+width: 22px;
+height: 22px;
+cursor: pointer;
+background: url(images/tablet/img_radioBtn_off.png) no-repeat 0px 0px;
+float: left;
+margin: 3px 0 0 0;
+}
+.tablet .img_radioBtn_on {
+width: 22px;
+height: 22px;
+cursor: pointer;
+background: url(images/tablet/img_radioBtn_on.png) no-repeat 0px 0px;
+float: left;
+margin: 3px 0 0 0;
+}
+/*
+-------------------------
+*/
+.tablet #visor_content p {
+
+line-height: 20px;
+}
+.tablet #pausar {
+width: 40px;
+margin-right: 7px;
+margin-left: 1px;
+}
+.tablet .fondoDic{
+background-color: #FF7A00;
+color:white;
+}
+.tablet input {
+text-align: center;
+outline: none;
+border-radius: 5px;
+-ms-border-radius: 5px;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+-webkit-user-select: auto;
+-khtml-user-select: auto;
+-moz-user-select: auto;
+-o-user-select: auto;
+user-select: auto;
+background-color: #E6E7E8;
+border: none;
+color:black;
+width: 160px;
+font-size: 21px;
+margin:2px;
+}
+
+.tablet ._red {
+	background-color: red !important;
+	-webkit-border-radius: 20px;
+	-ms-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+	color:white;
+}
+.tablet ._green {
+	background-color: #00FF00 !important;
+	-ms-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+	color:white;
+}
+

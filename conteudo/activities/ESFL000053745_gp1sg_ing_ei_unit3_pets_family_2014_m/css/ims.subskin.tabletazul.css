@@ -1,0 +1,147 @@
+.tabletazul #bottombar {
+	background-color: #78c3ed;
+}
+
+.tabletazul #header p {
+	color: #78c3ed;
+}
+.tabletazul .aspa{
+	background-color: #78c3ed;
+}
+.tabletazul #header #pregunta p {
+	color: #26768f;
+}
+.tabletazul #header #pregunta {
+	color: #26768f;
+}
+
+.tabletazul .redondo {
+	background: url(tabletazul/redondo.png) no-repeat center;
+}
+
+.tabletazul #center {
+	background: url(tabletazul/bg_numbers.png) no-repeat center;
+
+}
+
+.tabletazul .marc {
+	color: #78c3ed;
+}
+
+.tabletazul hr {
+
+	background: url(tabletazul/linea_banda_sup.png) repeat-x top;
+
+}
+
+.tabletazul .pop_up{
+	background: #FFFFFF;
+	border:#78c3ed solid;
+	border-width: 50px 3px 3px;
+}
+.tabletazul .jspDrag {
+	background: #78c3ed url(tabletazul/tab_vscroll.png) no-repeat center !important;
+}
+.tabletazul .pop_up_close{
+	margin-top: -50px;
+}
+.tabletazul .pop_up_title{
+	margin-top: -90px;
+}
+/*Botones Activos*/
+.tabletazul .anterior.notdisabled:active, .tabletazul .anterior.notdisabled.active {
+	cursor: pointer;
+	background: url(images/tablet/tab_fback.png) #6bacd2 no-repeat center;
+}
+.tabletazul .siguiente.notdisabled:active, .tabletazul .siguiente.notdisabled.active {
+	cursor: pointer;
+	background: url(images/tablet/tab_fnext.png) #6bacd2 no-repeat center;
+}
+.tabletazul .anterior2.notdisabled:active, .tabletazul .anterior2.notdisabled.active {
+	cursor: pointer;
+	background: url(images/tablet/tab_fback.png) #6bacd2 no-repeat center;
+}
+.tabletazul .siguiente2.notdisabled:active, .tabletazul .siguiente2.notdisabled.active {
+	cursor: pointer;
+	background: url(images/tablet/tab_fnext.png) #6bacd2 no-repeat center;
+}
+.tabletazul .comprobar.notdisabled:active, .tabletazul .comprobar.notdisabled.active {
+	cursor: pointer;
+	background: url(images/tablet/tab_check.png) #6bacd2 no-repeat center;
+}
+.tabletazul .ayuda.notdisabled:active, .tabletazul .ayuda.notdisabled.active {
+	cursor: pointer;
+	background: url(images/tablet/tab_help.png) #6bacd2 no-repeat center;
+}
+.tabletazul .reiniciar.notdisabled:active, .tabletazul .reiniciar.notdisabled.active {
+	cursor: pointer;
+	background: url(images/tablet/tab_reload.png) #6bacd2 no-repeat center;
+}
+.tabletazul .versolucion.notdisabled:active, .tabletazul .versolucion.notdisabled.active {
+	cursor: pointer;
+	background: url(images/tablet/tab_solution.png) #6bacd2 no-repeat center;
+}
+.tabletazul .clave.notdisabled:active, .tabletazul .clave.notdisabled.active {
+	cursor: pointer;
+	background: url(images/tablet/tab_key.png) #6bacd2 no-repeat center;
+}
+.tabletazul .imprimir.notdisabled:active, .tabletazul .imprimir.notdisabled.active {
+	cursor: pointer;
+	background: url(images/tablet/tab_print_t.png) #6bacd2 no-repeat center;
+}
+.tabletazul .aleatorio.notdisabled:active, .tabletazul .aleatorio.notdisabled.active {
+	cursor: pointer;
+	background: url(images/tablet/tab_aleatorio-1.png) #6bacd2 no-repeat center;
+}
+.tabletazul .pause.notdisabled:active, .tabletazul .pause.notdisabled.active {
+	cursor: pointer;
+	background: url(images/tablet/tab_pause.png) #6bacd2 no-repeat center;
+}
+.tabletazul .play.notdisabled:active, .tabletazul .play.notdisabled.active {
+	cursor: pointer;
+	background: url(images/tablet/tab_play.png) #6bacd2 no-repeat center;
+}
+.tabletazul .rewind.notdisabled:active, .tabletazul .rewind.notdisabled.active {
+	cursor: pointer;
+	background: url(images/tablet/tab_rewind.png) #6bacd2 no-repeat center;
+}
+.tabletazul .silenciar.notdisabled:active, .tabletazul .silenciar.notdisabled.active {
+	cursor: pointer;
+	background: url(images/tablet/tab_sound.png) #6bacd2 no-repeat center;
+	margin-left: 11px;
+}
+.tabletazul .silenciar_on.notdisabled:active, .tabletazul .silenciar_on.notdisabled.active {
+	cursor: pointer;
+	background: url(images/tablet/tab_sound_off.png) #6bacd2 no-repeat center;
+	margin-left: 11px;
+}
+.tabletazul .cronometro.notdisabled:active, .tabletazul .cronometro.notdisabled.active {
+	cursor: pointer;
+	background: url(images/tablet/tab_ter_crono.png) #6bacd2 no-repeat center;
+}
+.tablet .back_page {
+	cursor: pointer;
+	background: url(images/tablet/tab_back_page.png) no-repeat center;
+		filter: alpha(opacity = 50);
+	opacity: .5;
+}
+
+.tablet .next_page.notdisabled:active, .tabletazul .next_page.notdisabled.active {
+	cursor: pointer;
+	background: url(images/tablet/tab_next_page.png) #6bacd2 no-repeat center;
+		filter: alpha(opacity = 50);
+	opacity: .5;
+}
+.tablet .first_page.notdisabled:active, .tabletazul .first_page.notdisabled.active {
+	cursor: pointer;
+	background: url(images/tablet/tab_first_page.png) #6bacd2 no-repeat center;
+		filter: alpha(opacity = 50);
+	opacity: .5;
+}
+.tablet .last_page.notdisabled:active, .tabletazul .last_page.notdisabled.active {
+	cursor: pointer;
+	background: url(images/tablet/tab_last_page.png) #6bacd2 no-repeat center;
+		filter: alpha(opacity = 50);
+	opacity: .5;
+}
+/**/

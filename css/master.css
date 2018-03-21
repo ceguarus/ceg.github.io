@@ -1,0 +1,171 @@
+*{margin:0; padding:0; border:0; user-select:none; -webkit-user-select:none; -moz-user-select:none; -ms-user-select:none; -o-user-select:none; }
+body {background-color:#000; height:100%;}
+html {height:100%;}
+
+#tudo { display:table; width:1024px; height:768px; margin:0; position:relative; overflow:hidden; background-color:#FFF;}
+
+.pagina {display:none; width:1024px; height:768px; position:absolute; top:0px; left:0;}
+
+.topo{ float:left; width:1024px; height:193px; }
+.topo .tituloTopo{ float:left; width:576px; height:193px; }
+.topo .tituloTopo .logo{ float:left; width:1024px; height:193px; background:url('../imagens/logo.png') no-repeat center center;}
+
+#preHome {background-image:url(../imagens/bg_incial.jpg); background-repeat:no-repeat;}
+#preHome #logoInicial{background-image:url(../imagens/logo_gumdrops_inicial.png); background-repeat:no-repeat; width:625px; height:181px; top:70px; left:130px; position:absolute;}
+#preHome #personagem1{background-image:url(../imagens/personagem1_inicial.png); background-repeat:no-repeat; width:337px; height:462px; top:auto; left:34px; bottom:74px; position:absolute;}
+#preHome #personagem2{background-image:url(../imagens/personagem2_inicial.png); background-repeat:no-repeat; width:300px; height:287px; top:auto; left:auto; bottom:20px; right:205px; position:absolute;}
+#preHome #logoRichmond_inicial{background-image:url(../imagens/logo_richmond.png); background-repeat:no-repeat; width:140px; height:30px; top:auto; left:380px; bottom:15px; position:absolute;}
+
+#home {background-image:url(../imagens/bg_abre.jpg); background-repeat:no-repeat;}
+#btHome{ float:left; width:53px; height:53px; background:url('../imagens/bt_home.png');  cursor:pointer; display:none; position:absolute; top:20px; left:auto; right:20px; z-index:100; background-position:left top;}
+#btHome:hover{background-position:right top;}
+
+#btVoltar{ float:left; width:53px; height:53px; background:url('../imagens/bt_back.png');  cursor:pointer; display:none; position:absolute; top:20px; left:auto; right:80px; z-index:100; background-position:left top;}
+#btVoltar:hover{background-position:right top;}
+
+.btsPrincipais {float:left; width:940px; padding:0 40px; clear:both; margin-top:216px; position:relative;}
+
+.btsPrincipais .botao {width:295px; height:375px; cursor:pointer; z-index:5; float:left; margin:0 9px; background-repeat:no-repeat; color:#a7cd45; }
+.btsPrincipais .botao:hover {color:#eb212e;}
+.btsPrincipais .botao.activities {background-image:url('../imagens/menu_principal_activities.png');}
+.btsPrincipais .botao.karaoke {background-image:url('../imagens/menu_principal_karaoke.png');}
+.btsPrincipais .botao.audios {background-image:url('../imagens/menu_principal_audio.png');}
+.btsPrincipais .botao .text {width:295px; margin:auto auto 0; text-align:center; font-family:FrutigerLTStd-Bold; font-size:32px; position:absolute; top:auto; bottom:0px}
+
+.btCredito {position:absolute; top:auto; bottom:20px; left:auto; right:20px; width:50px; height:40px; background-image:url('../imagens/icon_creditos_menu_principal.png'); cursor:pointer; background-position:0 0;}
+.btCredito:hover {background-position:-50px 0;}
+
+#logoRichmond {position:absolute; top:auto; bottom:15px; left:33px; width:140px; height:30px; background-image:url('../imagens/logo_richmond.png'); cursor:pointer; z-index:100; display:none}
+
+
+/*////////INTERNAS///////*/
+#activities, #karaoke, #audios, #creditos{background-image:url(../imagens/bg_interno.jpg); background-repeat:no-repeat;}
+.titInterno {position:absolute; top:95px; left:35px; color:#a7cd45; font-size:40px; font-family:FrutigerLTStd-Bold; }
+
+
+/*////////ACTIVITIES///////*/
+#activities #ilustra {background-image:url(../imagens/personagem_activies.png); width:372px; height:404px; top:auto; left:auto; bottom:0; right:0; position:absolute}
+#activities #btsActivities {width:1024; height:570; margin-top:200px;}
+#activities #btsActivities .btUnit {width:136px; height:135px; float:left; background-position:0 0; margin:14px 18px; cursor:pointer}
+#activities #btsActivities .btUnit:hover {background-position:-136px 0;}
+
+#activities #btsActivities .linha {clear:both;}
+#activities #btsActivities .linha1 {margin-left:250px;}
+#activities #btsActivities .linha2 {margin-left:120px;}
+#activities #btsActivities .linha3 {margin-left:210px;}
+
+#activities #btsActivities #un1 {background-image:url(../imagens/bt_1_activies.png);}
+#activities #btsActivities #un2 {background-image:url(../imagens/bt_2_activies.png);}
+#activities #btsActivities #un3 {background-image:url(../imagens/bt_3_activies.png);}
+#activities #btsActivities #un4 {background-image:url(../imagens/bt_4_activies.png);}
+#activities #btsActivities #un5 {background-image:url(../imagens/bt_5_activies.png);}
+#activities #btsActivities #un6 {background-image:url(../imagens/bt_6_activies.png);}
+#activities #btsActivities #un7 {background-image:url(../imagens/bt_7_activies.png);}
+#activities #btsActivities #un8 {background-image:url(../imagens/bt_8_activies.png);}
+
+#activities #contAtvs {float:left; margin:260px 0 0 0px; text-align:center; width:750px; display:none}
+#activities #contAtvs .btAtv {width:214px; height:214px; background-image:url(../imagens/bg_bt_activies.png); display:inline-block; margin:20px; cursor:pointer; position:relative; text-align:center;}
+#activities #contAtvs .btAtv p{width:160px; height:65px; text-align:center; color:#fff; font-size:25px; font-family:FrutigerLTStd-Black; position:absolute; z-index:10; top:0; left:0; bottom:0; right:0; margin:auto;}
+#activities #contAtvs .btAtv:hover p{color:#000;}
+#activities #contAtvs .btAtv .circulo{width:166px; height:166px; border-radius:83px; position:absolute; top:24px; left:24px}
+#activities #contAtvs .btAtv .circulo.un1{background-color:#eb212e;}
+#activities #contAtvs .btAtv .circulo.un2{background-color:#43c1c6;}
+#activities #contAtvs .btAtv .circulo.un3{background-color:#e97e7b;}
+#activities #contAtvs .btAtv .circulo.un4{background-color:#a6cd51;}
+#activities #contAtvs .btAtv .circulo.un5{background-color:#f1793e;}
+#activities #contAtvs .btAtv .circulo.un6{background-color:#af4c34;}
+#activities #contAtvs .btAtv .circulo.un7{background-color:#914a9a;}
+#activities #contAtvs .btAtv .circulo.un8{background-color:#0bad5e;}
+
+
+/*////////KARAOKE///////*/
+#karaoke #contAtvs {float:left; margin:260px 0 0 0px; text-align:center; width:750px; display:block}
+#karaoke #contAtvs .btAtv {width:259px; height:259px; background-image:url(../imagens/bg_bt_karaoke.png); background-position:0 0; display:inline-block; margin:5px; text-align:center; cursor:pointer}
+#karaoke #contAtvs .btAtv:hover {background-position:-259px 0;}
+#karaoke #contAtvs .btAtv p{color:#fff; font-size:26px; line-height:30px; font-family:FrutigerLTStd-Bold; display:table; width:259px}
+#karaoke #contAtvs .btAtv .linhas2{margin-top:100px}
+#karaoke #contAtvs .btAtv .linhas3{margin-top:85px}
+#karaoke #ilustra {background-image:url(../imagens/personagem_karaoke.png); width:311px; height:538px; top:auto; left:auto; bottom:10px; right:30px; position:absolute}
+
+
+/*////////CREDITOS///////*/
+#creditos #ilustra {background-image:url(../imagens/personagem_creditos.png); width:773px; height:356px; top:auto; left:auto; bottom:00px; right:00px; position:absolute; background-repeat:no-repeat;}
+#creditos #contCredits {width:1024; margin-top:215px; color:#77787b; font-size:14px; line-height:18px; font-family:FrutigerLTStd-Roman;}
+#creditos #contCredits .creditos{float: left; margin-left: 69px; width: 600px; }
+#creditos #contCredits .creditos img{margin-bottom:10px; }
+#creditos #contCredits h2{font-size:14px; line-height:18px; font-family:FrutigerLTStd-Roman; margin:15px 0 0 0; text-transform:uppercase;}
+#creditos #contCredits a{text-decoration:none; color:#77787b}
+#creditos #contCredits a:hover{text-decoration:underline;}
+#creditos #contCredits .bold {font-weight:bold;}
+#creditos #contCredits .mTop {margin-top:15px; font-size:13px; }
+
+
+/*////////AUDIOS///////*/
+#audios {text-align:center;}
+#audios #ilustra {background-image:url(../imagens/personagem_audio.png); width:260px; height:327px; top:auto; left:auto; bottom:0px; right:30px; position:absolute}
+#audios .contAudios {float:left; width:auto; margin:210px 0 0 100px; position:relative; z-index:10; text-align:left;}
+#audios .contAudios .col {float:left; width:305px; margin:0;}
+#audios .contAudios .btAudio {color:#77787b; width:305px; font-family:FrutigerLTStd-Bold; margin-left:29px; text-indent:-29px; font-size:14px; margin-bottom:6px; cursor:pointer; text-transform:uppercase;}
+#audios .contAudios .btAudio span{color:#a6cd51;}
+#audios .contAudios .btAudio .traco{color:#c7c8ca;}
+#audios .contAudios .btAudio .txtKaraoke {color:#c7c8cc;}
+#audios .contAudios .btAudio.ativo {color:#414042;}
+#audios .contAudios .btAudio:hover {color:#414042;}
+/*#audios .contAudios .btAudio.ativo ,#audios .contAudios .btAudio span{color:#68b24c;}*/
+
+.player{display:inline-block;  height:30px; text-align:center; background-color:#a6cd51; margin:40px auto 0; border-radius:10px; position:relative;}
+.player .contPlayer{display:table; margin:0px auto 0; padding-right:15px;}
+.player .contPlayer .nomeAudio{float:left; background-color:#8fbd3c; color:#231f20; width:80px; height:30px; line-height:30px; padding:0 10px; border-radius:10px; font-family:FrutigerLTStd-Roman;  font-size:12px; margin-right:5px;}
+.player .contPlayer .btVoltar{float:left; background-color:#FFF; width:16px; height:16px; margin-right:5px; margin-top:7px; cursor:pointer;}
+.player .contPlayer .btPlay{float:left; background:url('../imagens/bt_play_audio.png') left top; width:18px; height:20px; margin-right:10px; margin-top:5px; cursor:pointer; }
+.player .contPlayer .btPlay.pause{background-position:right top;}
+.player .contPlayer .barraProgress1{float:left; width:2px; height:16px; background-color:#43c1c6; margin-top:7px;}
+.player .contPlayer .barraProgress2{float:left; width:2px; height:16px; background-color:#FFF; margin-top:7px;}
+.player .contPlayer .progress{float:left; width:180px; height:3px; background-color:#FFF; margin-top:14px;  position:relative; cursor:pointer;}
+.player .contPlayer .progress .scrooler{position:absolute; width:7px; height:7px; border-radius:5px; border:#fff 2px solid; background-color:#43c1c6; left:0; top:-4px; display:none}
+.player .contPlayer .progress .barProgress{position:absolute; width:0px; height:3px; background-color:#43c1c6;}
+.player .contPlayer .time{float:left; margin-right:20px; font-size:16px; font-family:FrutigerLTStd-Light; color:#fff; display:none;}
+.player .contPlayer .volume{float:left; cursor:pointer; display:none;}
+.player .contPlayer .volume .barVolume{float:left; width:5px; height:20px; background-color:#fff; margin-right:4px;}
+.player .contPlayer .volume .barVolume.ativo{ background-color:#466600;}
+
+#contPlayer {position:absolute; width:1px; height:1px; top:0; left:0; overflow:hidden;}
+
+ 
+#lightbox {position:absolute; width:100%; height:100%; background-image:url(../imagens/bg_title_.jpg); z-index:1000; display:none; overflow:hidden}
+#lightbox>div{display:none;}
+#lightbox .ativities .btFechar		{position:absolute; display:block; width:53px; height:53px; background-image:url('../imagens/bt_fechar.png'); top:14px; left:auto; right:12px; cursor:pointer;}
+#lightbox .ativities .btFechar:hover	{background-position:-53px 0;}
+#lightbox .ativities img				{position:absolute; display:block; top:auto; bottom:0; left:auto; right:8px;}
+#lightbox .ativities .contAtv 		{position:absolute; display:block; width:1024px; height:600px; top:40px;  left:0; background-color:#a6cd50; left:-10px; border:#fff 10px solid; border-radius:10px; box-shadow:0 0 15px #ffffff}
+#lightbox .ativities .contAtv iframe 	{display:block; overflow:hidden; width:1024px; height:600px;}
+#lightbox #msgmIe {position:absolute; display:block; width:1024px; color:#ff0; font-family:Arial; font-size:40px; line-height:50px; height:206px; top:0; left:0; bottom:0; margin:auto; text-align:center; font-weight:bold;}
+#lightbox #msgmIe  img{margin:auto; cursor:pointer}
+
+
+@font-face {
+	font-family: 'FrutigerLTStd-Black';
+	src: url("fontes/FrutigerLTStd-Black.otf") format("opentype"), url("fontes/FrutigerLTStd-Black.woff") format("woff");
+}
+
+@font-face {
+	font-family: 'FrutigerLTStd-Bold';
+	src: url("fontes/FrutigerLTStd-Bold.otf") format("opentype"), url("fontes/FrutigerLTStd-Bold.woff") format("woff");
+}
+@font-face {
+	font-family: 'FrutigerLTStd-Roman';
+	src: url("fontes/FrutigerLTStd-Roman.otf") format("opentype"), url("fontes/FrutigerLTStd-Roman.woff") format("woff");
+}
+@font-face {
+	font-family: 'FrutigerLTStd-BlackItalic';
+	src: url("fontes/FrutigerLTStd-BlackItalic.otf") format("opentype"), url("fontes/FrutigerLTStd-BlackItalic.woff") format("woff");
+}
+
+@font-face {
+	font-family: 'FrutigerLTStd-BoldItalic';
+	src: url("fontes/FrutigerLTStd-BoldItalic.otf") format("opentype"), url("fontes/FrutigerLTStd-BoldItalic.woff") format("woff");
+}
+@font-face {
+	font-family: 'FrutigerLTStd-Italic';
+	src: url("fontes/FrutigerLTStd-Italic.otf") format("opentype"), url("fontes/FrutigerLTStd-Italic.woff") format("woff");
+}

@@ -1,0 +1,148 @@
+#overall {
+	overflow: hidden;
+	position: absolute;
+	z-index: 500;
+}
+ .paint{
+	pointer-events:none;
+}
+#header,hr,#bottombar{
+	position:relative;
+	z-index: 5000;
+}
+.targets,.rows{
+	border:2px solid transparent;
+
+}
+.aspa{
+	position:absolute;
+	z-index:999;
+	width:25px;
+	height:21px;
+	padding-top: 4px;
+	border-radius:15px;
+	-ms-border-radius:15px;
+	-webkit-border-radius:15px;
+	-moz-border-radius:15px;
+	background-color:#323332;
+	font-weight:bold;
+	color:#fff;
+	text-align:center;
+}
+#preload {
+	height: 0;
+	overflow: hidden;
+}
+#intro_title {
+	font-size: 16px;
+}
+#center {
+	z-index: 9999;
+}
+#canvas{
+	z-index: 5000;
+	position: absolute;
+	top: 0px;
+	pointer-events:none;
+	left: 0px;
+}
+#intro_text p {
+	margin-top: 0px !important;
+}
+.item,  .item2 {
+	color:#ffffff;
+	font-size:14px;
+	font-family:Arial;
+	padding: 5px;
+	margin-top: 5px;
+	width: 270px;
+	background-color: #48a9da;
+	border-radius: 10px 0px 0px 10px;
+	-ms-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px 0px 0px 10px;
+}
+.target,  .target2 {
+color:#48a9da;
+	font-size:14px;
+	font-family:Arial;
+	padding: 5px 5px 5px 15px;
+	margin-top: 5px;
+	min-height:30px;
+	width: 270px;
+	border:1px solid #cccccc;
+	background-color: #daeaf2;
+	border-radius: 10px 0px 0px 10px;
+	-ms-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 0px 10px 10px 0px;
+}
+
+.row_selection {
+	background: url(images/tablet/flecha_remarcada_azul.png) no-repeat center !important;
+}
+.des_selection {
+	background: url(images/tablet/btn_remarcado_azul.png) no-repeat center !important;
+}
+.line {
+	position: absolute;
+	z-index: 1;
+	stroke-width: 4px;
+	stroke: #7ACBED;
+}
+.row {
+	cursor: pointer;
+}
+ .tablet .nocheck {
+	background: url(images/tablet/flecha_roja.png) no-repeat center !important;
+}
+.jspVerticalBar{
+	z-index: 6000;
+}
+.tablet .check {
+	background: url(images/tablet/flecha_verde.png) no-repeat center !important;
+}
+.tablet .row {
+	background: url(images/tablet/flecha_azul.png) no-repeat center;
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	z-index: 2001;
+}
+#header{
+	padding-right:60px;
+}
+#visor_content{
+	margin-left:0px;
+	margin-bottom:10px;
+}
+#colizquierda {
+	margin-left:30px;
+	margin-right: 80px;
+	padding-bottom:5px;
+	width: 270px;
+	float: left;
+}
+#colderecha {
+	right: 50px;
+	margin-right:0px;
+	float: right;
+	padding-bottom:5px;
+	position:relative;
+}
+#colizquierda {
+	margin-right: 80px;
+	width: 270px;
+	float: left;
+	position:relative;
+}
+#center {
+	z-index: 10000;
+}
+.stars {
+	position: absolute;
+	background: url("images/estrellas.png") no-repeat center;
+	width: 24px;
+	z-index: 10;
+	height: 24px;
+}
